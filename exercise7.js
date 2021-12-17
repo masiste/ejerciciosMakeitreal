@@ -6,9 +6,9 @@ y le pida al usuario que lo trate de adivinar. Si el número es correcto debe im
 function randomGenerate(min, max){
     return Math.floor(Math.random()*(max-min))+min;}
 
-const numberDicern = randomGenerate(1,10)
+let numberDicern = randomGenerate(1,10)
 console.log("el numero generado es " +numberDicern)
-const numberEnter = parseInt(prompt("What is the number ? "))
+let numberEnter = parseInt(prompt("What is the number ? "))
 
 while (numberEnter != numberDicern) {
     numberEnter = parseInt(prompt("Intentalo de nuevo "))
