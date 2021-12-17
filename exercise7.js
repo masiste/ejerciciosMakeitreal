@@ -15,3 +15,7 @@ while (numberEnter != numberDicern) {
 }
 console.log("Felicitaciones ese era")
 
+/* Aprendizaje 
+
+cambio en la declaracion de variables por let para que acepten otros valores en el 
+proceso de intentar adivinar el número generado por el programa  */
