@@ -2,4 +2,3 @@
 y le pida al usuario que lo trate de adivinar. Si el número es correcto debe imprimir en la consola 
 "Felicitaciones, ese era!", de lo contrario debe imprimir "Lo siento, intenta nuevamente!" */
 
-console.log("prueba")
